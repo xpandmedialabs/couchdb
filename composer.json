@@ -1,0 +1,23 @@
+{
+    "name": "xpandmedialabs/couchdb",
+    "type": "library",
+    "description": "CouchDB For PHP 7.x",
+    "keywords": ["couchdb","CouchDB","NoSQL"],
+    "homepage": "https://github.com/xpandmedialabs/couchdb",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@xpandmedialabs.com",
+            "homepage": "http://xpandmedialabs.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xpandmedialabs\\XPCouch": "src/"
+        }
+    }
+}
